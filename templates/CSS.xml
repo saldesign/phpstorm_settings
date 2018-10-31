@@ -1,0 +1,79 @@
+<templateSet group="CSS">
+  <template name="dflex" value="display: flex;$HEADER$&#10;&amp;:before, &amp;:after {&#10;    display: none;&#10;}&#10;$FOOTER$" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="HEADER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FOOTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bp-sm" value="@include bp-sm {&#10;    $HEADER$&#10;}&#10;$FOOTER$" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="HEADER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FOOTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bp-md" value="@include bp-md {&#10;    $HEADER$&#10;}&#10;$FOOTER$" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="HEADER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FOOTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bp-lg" value="@include bp-lg {&#10;    $HEADER$&#10;}&#10;$FOOTER$" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="HEADER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FOOTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bp-sm-max" value="@include bp-sm-max {&#10;    $HEADER$&#10;}&#10;$FOOTER$" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="HEADER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FOOTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bp-md-max" value="@include bp-md-max {&#10;    $HEADER$&#10;}&#10;$FOOTER$" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="HEADER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FOOTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bp-lg-max" value="@include bp-lg-max {&#10;    $HEADER$&#10;}&#10;$FOOTER$" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="HEADER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FOOTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bp-xs-max" value="@include bp-xs-max {&#10;    $HEADER$&#10;}&#10;$FOOTER$" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="HEADER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FOOTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="@mb" value="@include media-breakpoint-$HEADER$($SECONDARY$) {&#10;    $THIRD$&#10;}&#10;$FOOTER$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="HEADER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SECONDARY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="THIRD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FOOTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="trans" value="transition: .2s all;&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bp-nav" value="@include bp-nav {&#10;    $HEADER$&#10;}&#10;$FOOTER$" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="HEADER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FOOTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>

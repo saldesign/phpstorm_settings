@@ -1,0 +1,50 @@
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta alt i" />
+  </action>
+  <action id="Console.TableResult.CompareCells" />
+  <action id="DecrementWindowHeight" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="EditorMoveToPageTop">
+    <keyboard-shortcut first-keystroke="meta page_up" />
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="EditorMoveToPageTopWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta page_up" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
+  </action>
+  <action id="GotoTest" />
+  <action id="Images.ShowThumbnails" />
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="shift meta alt p" />
+  </action>
+  <action id="MoveElementRight" />
+  <action id="MoveStatementUp" />
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift meta alt right" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowUp" />
+  <action id="RunDashboard.ShowConfigurations" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="shift meta alt t" />
+  </action>
+  <action id="Uml.ShowDiff" />
+  <action id="Vcs.Log.FocusTextFilter" />
+</keymap>

@@ -1,0 +1,10 @@
+<templateSet group="Comments">
+  <template name="/*-" value="/*&#10;|--------------------------------------------------------------------------&#10;| $HEADER$&#10;|--------------------------------------------------------------------------&#10;*/&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="HEADER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
