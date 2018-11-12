@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="editor-fold" value="// &lt;editor-fold desc=&quot;$start$&quot;&gt;&#10;    $end$&#10;// &lt;/editor-fold&gt;" toReformat="true" toShortenFQNames="true">
+  <template name="editor-fold" value="// &lt;editor-fold desc=&quot;$start$&quot;&gt;&#10;    $end$&#10;// &lt;/editor-fold&gt;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
