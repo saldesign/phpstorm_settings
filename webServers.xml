@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cdd3db9f-e59b-498a-8be4-9551fe7f62b4" name="SBP 19Redesign" url="http://appserver.19redesign.ba82ccbe-ded3-4d26-a26a-691288f003d4.drush.in">
+        <fileTransfer host="appserver.19redesign.ba82ccbe-ded3-4d26-a26a-691288f003d4.drush.in" port="2222" rootFolder="/srv/bindings/19e671454db847e08ba67c842bfec0e9" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
