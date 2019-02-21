@@ -1,0 +1,9 @@
+<templateSet group="PHP">
+  <template name="wpusercond" value="if(get_current_user_id() === 1) {&#10;    $1$&#10;}&#10;$END$ &#10;" description="wordpress user conditional" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
