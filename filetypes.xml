@@ -5,6 +5,7 @@
       <mapping ext="mov" type="Native" />
       <mapping ext="theme" type="PHP" />
       <mapping pattern="dbcred" type="PLAIN_TEXT" />
+      <mapping pattern=".env.local" type="PLAIN_TEXT" />
       <mapping pattern="_view--job-board.scss" type="PLAIN_TEXT" />
       <mapping ext="info" type="PLAIN_TEXT" />
     </extensionMap>
